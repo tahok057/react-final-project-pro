@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+  }
+  
+  .worker-app-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  .worker-search-bar-container {
+    margin: 20px auto;
+    width: 60%;  /* Make the search bar wider */
+  }
+  
+  .worker-search-bar-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .worker-list-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the worker cards */
+    padding: 20px;
+  }
+  
+  .worker-card {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .worker-avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .worker-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .worker-location,
+  .worker-age,
+  .worker-email,
+  .worker-phone,
+  .worker-address {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
+  .details-button,
+  .favorite-button,
+  .remove-button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    background: #d9534f; /* Different color for remove button */
+  }
+  
+  .worker-favorites-container {
+    padding: 20px;
+  }
+  
+  .worker-details-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .worker-details-container button {
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .worker-details-card {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px; /* Make the card wider */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .worker-avatar-large {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 150px; /* Make the avatar larger */
+  }
+  
+  .leaflet-container {
+    height: 400px; /* Increase the height of the map */
+    width: 100%;
+  }
+  
